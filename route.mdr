@@ -529,6 +529,8 @@ Pick up the Comet Shard from the center of the first crater.
 
 ![Comet Shard location](comet-shard.png)
 
+Pick up the Rare Bone next to Comet Shard in other crater.
+
 Heal to full-ish.
 
 :::trainer[Team Aqua Double]
@@ -553,10 +555,15 @@ Go to the mart.
 ### Mauville Shopping
 > #### Sell (Bottom)
 > - Comet Shard
-> #### Buy (Bottom)
+> - Rare Bone (If picked up)
+> #### Buy (Bottom) :info[If no Rare Bone]{color=blue}
 > - 11 Hyper Potions (>^^)
 > - 5 Full Heals (>)
 > - 11 Max Repels (>^)
+> #### Buy (Bottom) :info[If you picked up Rare Bone]{color=red}
+> - 13 Hyper Potions (>^^)
+> - 6 Full Heals (>)
+> - 12 Max Repels (>^)
 
 Head north towards the cable car, and at the grass:
 - Use a Max Repel (keep applied until the end of the game).
@@ -998,7 +1005,7 @@ If in yellow health:
 > - 7 X Sp. Attack (>^)
 > - 1 Guard Spec (^^^)
 > #### Buy (Botom):
-> - 11 Max Repel (^^)
+> - 12 Max Repel (^^)
 > - 2 Revive (<^^^)
 > - MAX Full Restore(^)
 
@@ -1039,7 +1046,7 @@ Bike to the Harbor.
     - _If 88- Speed (Lv. 34: 31- / 25- / 1-) (Lv. 35: 31- / 17- / x):_
       - X Speed
     :::
-    - Surf
+    - Surf :info[Heal if less than ~62 health to survive Sceptile Dual Chop]{color=gray}
 
     ::damage[+1 Surf vs Swellow at Lv. 34]{source="Latias" special=true movePower=90 level=34 evs=1 opponentStat=37 healthThreshold=91 combatStages=1 otherPowerModifier=1.2 theme=error}
   :::::
