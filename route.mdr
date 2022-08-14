@@ -592,12 +592,21 @@ Enter the cable car building (watch out for the spinner in front!) and talk to t
   :::::pokemon[Mightyena]{info="Bag: X-Speed, X-Attack // X-Defend, X-Sp Attack" infoColor=gray}
     :::if{source="Mudkip" condition="speed=(x / 28+ / 16+)"}
     - X Speed
-    :::
-    :::if{source="Mudkip" condition="speed=~(x / 28+ / 16+)"}
-    - X Speed x2
-    :::
     - (X Attack if you have not been Swagger'd)
     - Bulldoze x2 (+ Rock Smash)
+    :::
+    :::if{source="Mudkip" condition="speed=~(x / 28+ / 16+)"}
+    - If going for 1 shot (12/16 @ x/x/22+ and 15/16 @ x/x/31)
+      - X Speed x2
+      - Full Heal
+      - Bulldoze
+    - If conceding to 2 shot
+      - X Speed, 
+      - Bulldoze
+      - X Speed
+      - Full Heal
+      - Bulldoze
+    :::
   :::::
   :::::pokemon[Sharpedo]
     - Bulldoze (x2)
